@@ -1,0 +1,22 @@
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import React from 'react';
+
+import { useAppTranslation } from '@/shared/hooks/useAppTranslation';
+
+export interface {{pascalCase name}}Props {
+  // TODO: Define props
+}
+
+/**
+ * TODO: Add component description
+ */
+export const {{pascalCase name}} = ({}: {{pascalCase name}}Props) => {
+  const { t } = useAppTranslation();
+
+  return (
+    <Box data-testid="{{kebabCase name}}-component">
+      <Typography variant="h6">{{pascalCase name}}</Typography>
+    </Box>
+  );
+};

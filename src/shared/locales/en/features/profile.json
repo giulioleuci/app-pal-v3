@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "noActiveProfile": "No active profile selected",
+    "create": {
+      "title": "Create Profile",
+      "action": "Create",
+      "creating": "Creating...",
+      "error": "Failed to create profile"
+    },
+    "delete": {
+      "title": "Delete Profile",
+      "warning": "This action cannot be undone",
+      "confirmationLabel": "Type profile name to confirm",
+      "action": "Delete",
+      "deleting": "Deleting..."
+    },
+    "switcher": {
+      "currentProfile": "Current Profile",
+      "active": "Active",
+      "new": "New",
+      "createNew": "Create New Profile"
+    },
+    "fields": {
+      "name": "Name"
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "nameMinLength": "Name must be at least 2 characters",
+      "nameMaxLength": "Name must be at most 50 characters",
+      "confirmationRequired": "Confirmation is required",
+      "confirmationMismatch": "Confirmation does not match"
+    },
+    "welcome": {
+      "title": "Welcome to Blueprint Fitness",
+      "subtitle": "Create your profile to get started",
+      "helper": "Your profile stores all your workout data",
+      "getStarted": "Get Started",
+      "creating": "Creating your profile..."
+    }
+  }
+}

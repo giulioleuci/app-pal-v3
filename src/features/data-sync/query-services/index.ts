@@ -1,0 +1,1 @@
+export { DataSyncQueryService } from './DataSyncQueryService';

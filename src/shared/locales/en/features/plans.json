@@ -1,0 +1,40 @@
+{
+  "trainingPlan": {
+    "create": {
+      "button": "Create Plan"
+    },
+    "actions": {
+      "start": "Start",
+      "edit": "Edit",
+      "archive": "Archive",
+      "unarchive": "Unarchive",
+      "delete": "Delete",
+      "archiveError": "Failed to archive plan",
+      "deleteError": "Failed to delete plan"
+    },
+    "editor": {
+      "noPlanSelected": "No Plan Selected",
+      "createFirstPlan": "Create your first training plan to get started",
+      "createPlan": "Create Plan",
+      "noSessions": "No Sessions",
+      "addFirstSession": "Add your first session to this plan",
+      "addSession": "Add Session",
+      "noExerciseGroups": "No Exercise Groups",
+      "addFirstExerciseGroup": "Add your first exercise group",
+      "addExerciseGroup": "Add Exercise Group"
+    },
+    "list": {
+      "empty": {
+        "title": "No Training Plans",
+        "description": "Create your first training plan to get started"
+      },
+      "error": {
+        "title": "Error Loading Plans",
+        "description": "Failed to load training plans"
+      },
+      "searchPlaceholder": "Search plans..."
+    },
+    "archived": "Archived",
+    "noDescription": "No description"
+  }
+}

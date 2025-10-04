@@ -1,0 +1,114 @@
+{
+  "muscleGroups": {
+    "chest": "Chest",
+    "lats": "Lats",
+    "upper_back": "Upper Back",
+    "lower_back": "Lower Back",
+    "shoulders": "Shoulders",
+    "biceps": "Biceps",
+    "triceps": "Triceps",
+    "forearms": "Forearms",
+    "quadriceps": "Quadriceps",
+    "hamstrings": "Hamstrings",
+    "calves": "Calves",
+    "abdominals": "Abdominals",
+    "glutes": "Glutes"
+  },
+  "exerciseCategories": {
+    "strength": "Strength",
+    "cardio": "Cardio",
+    "stretching": "Stretching",
+    "hypertrophy": "Hypertrophy",
+    "mobility": "Mobility",
+    "other": "Other"
+  },
+  "difficulty": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "equipment": {
+    "barbell": "Barbell",
+    "dumbbell": "Dumbbell",
+    "machine": "Machine",
+    "bodyweight": "Bodyweight",
+    "kettlebell": "Kettlebell",
+    "cable": "Cable",
+    "smithMachine": "Smith Machine",
+    "bench": "Bench",
+    "rack": "Rack",
+    "fitball": "Fitness Ball",
+    "step": "Step",
+    "other": "Other"
+  },
+  "setTypes": {
+    "standard": "Standard",
+    "drop": "Drop Set",
+    "myoReps": "Myo-Reps",
+    "pyramidal": "Pyramidal",
+    "restPause": "Rest-Pause",
+    "mav": "MAV (Maximal Aerobic Velocity)"
+  },
+  "exerciseGroupTypes": {
+    "single": "Single Exercise",
+    "superset": "Superset",
+    "circuit": "Circuit",
+    "emom": "EMOM (Every Minute On the Minute)",
+    "amrap": "AMRAP (As Many Reps As Possible)",
+    "warmup": "Warm-up",
+    "stretching": "Stretching"
+  },
+  "movementTypes": {
+    "pull": "Pull",
+    "push": "Push",
+    "static": "Static",
+    "dynamic": "Dynamic",
+    "other": "Other"
+  },
+  "movementPatterns": {
+    "verticalPush": "Vertical Push",
+    "verticalPull": "Vertical Pull",
+    "horizontalPush": "Horizontal Push",
+    "horizontalPull": "Horizontal Pull",
+    "hipHinge": "Hip Hinge",
+    "squat": "Squat",
+    "coreRotation": "Core Rotation"
+  },
+  "jointTypes": {
+    "isolation": "Isolation",
+    "compound": "Compound"
+  },
+  "counterTypes": {
+    "reps": "Reps",
+    "mins": "Minutes",
+    "secs": "Seconds"
+  },
+  "repRangeCategories": {
+    "strength": "Strength",
+    "hypertrophy": "Hypertrophy",
+    "endurance": "Endurance"
+  },
+  "trainingCycleGoals": {
+    "hypertrophy": "Hypertrophy",
+    "strength": "Strength",
+    "cutting": "Cutting",
+    "maintenance": "Maintenance",
+    "other": "Other"
+  },
+  "daysOfWeek": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "themeMode": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "unitSystem": {
+    "metric": "Metric"
+  }
+}

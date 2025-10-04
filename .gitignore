@@ -1,0 +1,1 @@
+node_modules/\ndist/\nbuild/\n.env\n.env.local\n.env.*\n.idea/\n.vscode/\n*.swp\n*.swo\n.DS_Store\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*\ncoverage/\n.nyc_output/\nstorybook-static/\n.cache/\n.npm/\n.eslintcache

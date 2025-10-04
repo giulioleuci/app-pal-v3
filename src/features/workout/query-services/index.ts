@@ -1,0 +1,1 @@
+export { WorkoutQueryService } from './WorkoutQueryService';

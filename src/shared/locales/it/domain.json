@@ -1,0 +1,114 @@
+{
+  "muscleGroups": {
+    "chest": "Petto",
+    "lats": "Dorsali",
+    "upper_back": "Schiena Superiore",
+    "lower_back": "Schiena Inferiore",
+    "shoulders": "Spalle",
+    "biceps": "Bicipiti",
+    "triceps": "Tricipiti",
+    "forearms": "Avambracci",
+    "quadriceps": "Quadricipiti",
+    "hamstrings": "Femorali",
+    "calves": "Polpacci",
+    "abdominals": "Addominali",
+    "glutes": "Glutei"
+  },
+  "exerciseCategories": {
+    "strength": "Forza",
+    "cardio": "Cardio",
+    "stretching": "Stretching",
+    "hypertrophy": "Ipertrofia",
+    "mobility": "Mobilità",
+    "other": "Altro"
+  },
+  "difficulty": {
+    "beginner": "Principiante",
+    "intermediate": "Intermedio",
+    "advanced": "Avanzato"
+  },
+  "equipment": {
+    "barbell": "Bilanciere",
+    "dumbbell": "Manubrio",
+    "machine": "Macchina",
+    "bodyweight": "Corpo Libero",
+    "kettlebell": "Kettlebell",
+    "cable": "Cavo",
+    "smithMachine": "Smith Machine",
+    "bench": "Panca",
+    "rack": "Rack",
+    "fitball": "Palla da Fitness",
+    "step": "Step",
+    "other": "Altro"
+  },
+  "setTypes": {
+    "standard": "Standard",
+    "drop": "Drop Set",
+    "myoReps": "Myo-Reps",
+    "pyramidal": "Piramidale",
+    "restPause": "Rest-Pause",
+    "mav": "MAV (Massima Velocità Aerobica)"
+  },
+  "exerciseGroupTypes": {
+    "single": "Esercizio Singolo",
+    "superset": "Superset",
+    "circuit": "Circuito",
+    "emom": "EMOM (Every Minute On the Minute)",
+    "amrap": "AMRAP (As Many Reps As Possible)",
+    "warmup": "Riscaldamento",
+    "stretching": "Stretching"
+  },
+  "movementTypes": {
+    "pull": "Tirata",
+    "push": "Spinta",
+    "static": "Statico",
+    "dynamic": "Dinamico",
+    "other": "Altro"
+  },
+  "movementPatterns": {
+    "verticalPush": "Spinta Verticale",
+    "verticalPull": "Tirata Verticale",
+    "horizontalPush": "Spinta Orizzontale",
+    "horizontalPull": "Tirata Orizzontale",
+    "hipHinge": "Cerniera d'Anca",
+    "squat": "Squat",
+    "coreRotation": "Rotazione del Core"
+  },
+  "jointTypes": {
+    "isolation": "Isolamento",
+    "compound": "Multiarticolare"
+  },
+  "counterTypes": {
+    "reps": "Ripetizioni",
+    "mins": "Minuti",
+    "secs": "Secondi"
+  },
+  "repRangeCategories": {
+    "strength": "Forza",
+    "hypertrophy": "Ipertrofia",
+    "endurance": "Resistenza"
+  },
+  "trainingCycleGoals": {
+    "hypertrophy": "Ipertrofia",
+    "strength": "Forza",
+    "cutting": "Definizione",
+    "maintenance": "Mantenimento",
+    "other": "Altro"
+  },
+  "daysOfWeek": {
+    "monday": "Lunedì",
+    "tuesday": "Martedì",
+    "wednesday": "Mercoledì",
+    "thursday": "Giovedì",
+    "friday": "Venerdì",
+    "saturday": "Sabato",
+    "sunday": "Domenica"
+  },
+  "themeMode": {
+    "light": "Chiaro",
+    "dark": "Scuro"
+  },
+  "unitSystem": {
+    "metric": "Metrico"
+  }
+}

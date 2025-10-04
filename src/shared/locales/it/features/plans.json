@@ -1,0 +1,40 @@
+{
+  "trainingPlan": {
+    "create": {
+      "button": "Crea Piano"
+    },
+    "actions": {
+      "start": "Inizia",
+      "edit": "Modifica",
+      "archive": "Archivia",
+      "unarchive": "Ripristina",
+      "delete": "Elimina",
+      "archiveError": "Impossibile archiviare il piano",
+      "deleteError": "Impossibile eliminare il piano"
+    },
+    "editor": {
+      "noPlanSelected": "Nessun Piano Selezionato",
+      "createFirstPlan": "Crea il tuo primo piano di allenamento per iniziare",
+      "createPlan": "Crea Piano",
+      "noSessions": "Nessuna Sessione",
+      "addFirstSession": "Aggiungi la tua prima sessione a questo piano",
+      "addSession": "Aggiungi Sessione",
+      "noExerciseGroups": "Nessun Gruppo di Esercizi",
+      "addFirstExerciseGroup": "Aggiungi il tuo primo gruppo di esercizi",
+      "addExerciseGroup": "Aggiungi Gruppo Esercizi"
+    },
+    "list": {
+      "empty": {
+        "title": "Nessun Piano di Allenamento",
+        "description": "Crea il tuo primo piano di allenamento per iniziare"
+      },
+      "error": {
+        "title": "Errore Caricamento Piani",
+        "description": "Impossibile caricare i piani di allenamento"
+      },
+      "searchPlaceholder": "Cerca piani..."
+    },
+    "archived": "Archiviato",
+    "noDescription": "Nessuna descrizione"
+  }
+}

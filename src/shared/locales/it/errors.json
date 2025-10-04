@@ -1,0 +1,195 @@
+{
+  "validation": {
+    "common": {
+      "required": "Questo campo è obbligatorio.",
+      "uuid": {
+        "required": "È richiesto un ID univoco.",
+        "invalid": "Formato ID non valido."
+      },
+      "minMax": {
+        "min": {
+          "required": "È richiesto un valore minimo."
+        },
+        "max": {
+          "gteMin": "Il massimo deve essere maggiore o uguale al minimo."
+        }
+      },
+      "duplicateIds": "Questa lista non può contenere elementi duplicati."
+    },
+    "profile": {
+      "name": {
+        "required": "Il nome del profilo è obbligatorio."
+      }
+    },
+    "userSettings": {
+      "primaryColor": {
+        "invalid": "Formato colore non valido. Deve essere un codice esadecimale (es. #RRGGBB)."
+      },
+      "secondaryColor": {
+        "invalid": "Formato colore non valido. Deve essere un codice esadecimale (es. #RRGGBB)."
+      }
+    },
+    "userDetails": {
+      "dateOfBirth": {
+        "future": "La data di nascita non può essere nel futuro."
+      }
+    },
+    "weightRecord": {
+      "date": {
+        "required": "La data è obbligatoria."
+      },
+      "weight": {
+        "required": "Il peso è obbligatorio.",
+        "positive": "Il peso deve essere un numero positivo."
+      }
+    },
+    "heightRecord": {
+      "date": {
+        "required": "La data è obbligatoria."
+      },
+      "height": {
+        "required": "L'altezza è obbligatoria.",
+        "positive": "L'altezza deve essere un numero positivo."
+      }
+    },
+    "exercise": {
+      "name": {
+        "required": "Il nome dell'esercizio è obbligatorio."
+      },
+      "substitutions": {
+        "self": "Un esercizio non può essere un sostituto di se stesso."
+      },
+      "equipment": {
+        "otherOnly": "Se 'altro' è l'unico attrezzo, specificane uno più preciso."
+      }
+    },
+    "exerciseTemplate": {
+      "name": {
+        "required": "Il nome del template dell'esercizio è obbligatorio."
+      }
+    },
+    "trainingPlan": {
+      "name": {
+        "required": "Il nome del piano è obbligatorio."
+      },
+      "cycleOrder": {
+        "required": "Un piano assegnato a un ciclo deve avere un ordine non negativo."
+      }
+    },
+    "trainingCycle": {
+      "name": {
+        "required": "Il nome del ciclo di allenamento è obbligatorio."
+      },
+      "endDate": {
+        "beforeStart": "La data di fine non può essere precedente a quella di inizio."
+      }
+    },
+    "workoutSession": {
+      "name": {
+        "required": "Il nome della sessione è obbligatorio."
+      }
+    },
+    "workoutLog": {
+      "trainingPlanName": {
+        "required": "Il nome del piano di allenamento è obbligatorio."
+      },
+      "sessionName": {
+        "required": "Il nome della sessione è obbligatorio."
+      },
+      "endTime": {
+        "beforeStart": "L'ora di fine non può essere precedente a quella di inizio."
+      },
+      "duration": {
+        "mismatch": "La durata non corrisponde agli orari di inizio e fine."
+      }
+    },
+    "exerciseSubstitution": {
+      "priority": {
+        "min": "La priorità di sostituzione deve essere almeno 1.",
+        "max": "La priorità di sostituzione non può superare 5."
+      }
+    },
+    "maxLog": {
+      "weight": {
+        "positive": "Il peso deve essere un numero positivo."
+      },
+      "reps": {
+        "positive": "Le ripetizioni devono essere un numero positivo."
+      },
+      "date": {
+        "future": "La data non può essere nel futuro."
+      }
+    },
+    "customTheme": {
+      "name": {
+        "required": "Il nome del tema è obbligatorio."
+      },
+      "primaryColor": {
+        "invalid": "Formato colore non valido. Deve essere un codice esadecimale (es. #RRGGBB)."
+      },
+      "secondaryColor": {
+        "invalid": "Formato colore non valido. Deve essere un codice esadecimale (es. #RRGGBB)."
+      }
+    },
+    "pyramidalSet": {
+      "ascending": {
+        "invalid": "In modalità ascendente, le ripetizioni iniziali devono essere inferiori a quelle finali."
+      },
+      "descending": {
+        "invalid": "In modalità discendente, le ripetizioni iniziali devono essere superiori a quelle finali."
+      }
+    },
+    "singleExerciseGroup": {
+      "maxLength": "Un gruppo di esercizio singolo può contenere al massimo un esercizio."
+    },
+    "supersetExerciseGroup": {
+      "exactLength": "Un superset deve contenere esattamente due esercizi."
+    },
+    "performedExerciseLog": {
+      "skipped": {
+        "nonZero": "Gli esercizi saltati non possono avere volume, ripetizioni o serie diverse da zero."
+      }
+    },
+    "performedSet": {
+      "weightAndPercentage": "Non è possibile specificare sia il peso che la percentuale."
+    }
+  },
+  "domain": {
+    "weight": {
+      "negative": "Il peso non può essere negativo."
+    },
+    "counter": {
+      "invalid": "Il valore del contatore deve essere un intero non negativo."
+    },
+    "rpe": {
+      "invalidRange": "L'RPE deve essere compreso tra 1 e 10."
+    },
+    "notes": {
+      "maxLength": "Le note non possono superare i 500 caratteri."
+    },
+    "duration": {
+      "negative": "La durata non può essere negativa."
+    },
+    "percentage": {
+      "invalidRange": "La percentuale deve essere compresa tra 0 e 100."
+    },
+    "age": {
+      "invalid": "L'età deve essere un intero non negativo."
+    },
+    "substitution": {
+      "priority": "La priorità di sostituzione deve essere compresa tra 1 e 5."
+    },
+    "superset": {
+      "invalidExerciseCount": "Un superset deve contenere esattamente due esercizi."
+    },
+    "circuit": {
+      "invalidExerciseCount": "Un circuito deve contenere almeno due esercizi."
+    },
+    "amrapEmom": {
+      "durationRequired": "I gruppi {{type}} richiedono l'impostazione di una durata."
+    },
+    "trainingPlan": {
+      "noSessions": "Un piano di allenamento deve avere almeno una sessione."
+    }
+  }
+}

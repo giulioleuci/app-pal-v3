@@ -1,0 +1,37 @@
+{
+  "workout": {
+    "setCompleted": "Set completed!",
+    "noActiveWorkout": "No Active Workout",
+    "noActiveWorkoutDescription": "Start a new workout to begin tracking your progress",
+    "startNewWorkout": "Start New Workout",
+    "elapsedTime": "Elapsed Time",
+    "progress": "Progress",
+    "sets": "sets",
+    "complete": "complete",
+    "saveWorkout": "Save Workout",
+    "completeWorkout": "Complete Workout",
+    "inProgress": "In Progress",
+    "totalVolume": "Total Volume",
+    "rating": "Rating",
+    "exercises": "Exercises",
+    "noExercises": "No Exercises",
+    "start": {
+      "button": "Start Workout"
+    },
+    "actions": {
+      "started": "Workout started!",
+      "viewExercises": "View Exercises",
+      "editWorkout": "Edit Workout"
+    }
+  },
+  "history": {
+    "empty": {
+      "title": "No Workout History",
+      "description": "Complete your first workout to see it here",
+      "action": "Start Workout"
+    },
+    "search": {
+      "placeholder": "Search workouts..."
+    }
+  }
+}

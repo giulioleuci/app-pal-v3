@@ -1,0 +1,43 @@
+{
+  "analysis": {
+    "loadingError": "Impossibile caricare i dati di analisi",
+    "reportGenerated": "Report generato con successo",
+    "reportGenerationFailed": "Generazione report fallita",
+    "exportCompleted": "Esportazione completata con successo",
+    "exportFailed": "Esportazione fallita",
+    "generateReport": "Genera Report",
+    "exportPdf": "Esporta PDF",
+    "filters": {
+      "label": "Filtri",
+      "bodyWeight": "Peso Corporeo",
+      "configure": "Configura Filtri"
+    },
+    "widgets": {
+      "volume": {
+        "title": "Analisi Volume",
+        "description": "Volume totale di allenamento nel tempo"
+      },
+      "frequency": {
+        "title": "Analisi Frequenza",
+        "description": "Pattern di frequenza degli allenamenti"
+      },
+      "weightProgress": {
+        "title": "Progressi Peso",
+        "description": "Progressione del peso corporeo"
+      },
+      "insights": {
+        "title": "Insights"
+      },
+      "combined": {
+        "title": "Analisi Combinata",
+        "description": "Tutte le metriche combinate"
+      }
+    },
+    "reportGeneration": {
+      "title": "Generazione Report",
+      "message": "Elaborazione dei tuoi dati...",
+      "pleaseWait": "Potrebbe richiedere alcuni istanti",
+      "error": "Generazione report fallita"
+    }
+  }
+}
