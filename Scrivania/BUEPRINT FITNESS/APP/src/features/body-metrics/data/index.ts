@@ -1,1 +1,0 @@
-export { BodyMetricsRepository } from './BodyMetricsRepository';

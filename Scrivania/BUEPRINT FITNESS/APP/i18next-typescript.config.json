@@ -1,9 +1,0 @@
-{
-  "input": "./src/shared/locales",
-  "output": "./src/shared/locales/i18n.generated.ts",
-  "typeName": "I18nKeys",
-  "defaultNamespace": "common",
-  "indent": 2,
-  "quoteChar": "'",
-  "includeSubfolders": true
-}

@@ -1,1 +1,0 @@
-export { ExerciseQueryService } from './ExerciseQueryService';

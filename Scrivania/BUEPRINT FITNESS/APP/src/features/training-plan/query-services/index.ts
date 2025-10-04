@@ -1,1 +1,0 @@
-export { TrainingPlanQueryService } from './TrainingPlanQueryService';

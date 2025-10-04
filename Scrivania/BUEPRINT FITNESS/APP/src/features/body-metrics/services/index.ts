@@ -1,1 +1,0 @@
-export { BodyMetricsService } from './BodyMetricsService';
