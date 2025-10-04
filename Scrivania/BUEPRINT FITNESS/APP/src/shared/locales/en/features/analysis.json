@@ -1,0 +1,43 @@
+{
+  "analysis": {
+    "loadingError": "Failed to load analysis data",
+    "reportGenerated": "Report generated successfully",
+    "reportGenerationFailed": "Failed to generate report",
+    "exportCompleted": "Export completed successfully",
+    "exportFailed": "Failed to export data",
+    "generateReport": "Generate Report",
+    "exportPdf": "Export PDF",
+    "filters": {
+      "label": "Filters",
+      "bodyWeight": "Body Weight",
+      "configure": "Configure Filters"
+    },
+    "widgets": {
+      "volume": {
+        "title": "Volume Analysis",
+        "description": "Total training volume over time"
+      },
+      "frequency": {
+        "title": "Frequency Analysis",
+        "description": "Training frequency patterns"
+      },
+      "weightProgress": {
+        "title": "Weight Progress",
+        "description": "Body weight progression"
+      },
+      "insights": {
+        "title": "Insights"
+      },
+      "combined": {
+        "title": "Combined Analysis",
+        "description": "All metrics combined"
+      }
+    },
+    "reportGeneration": {
+      "title": "Generating Report",
+      "message": "Processing your data...",
+      "pleaseWait": "This may take a few moments",
+      "error": "Report generation failed"
+    }
+  }
+}

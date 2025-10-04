@@ -1,0 +1,1 @@
+export { MaxLogRepository } from './MaxLogRepository';

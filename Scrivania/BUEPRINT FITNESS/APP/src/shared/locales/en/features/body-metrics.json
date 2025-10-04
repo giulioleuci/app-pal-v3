@@ -1,0 +1,35 @@
+{
+  "bodyMetrics": {
+    "tabs": {
+      "label": "Body Metrics Tabs",
+      "weight": "Weight",
+      "height": "Height"
+    },
+    "actions": {
+      "deleteError": "Failed to delete record"
+    },
+    "weight": {
+      "empty": {
+        "title": "No Weight Records",
+        "description": "Start tracking your weight progress",
+        "action": "Add Weight"
+      }
+    },
+    "height": {
+      "empty": {
+        "title": "No Height Records",
+        "description": "Track your height measurements",
+        "action": "Add Height"
+      }
+    },
+    "weightRecord": "Weight Record",
+    "heightRecord": "Height Record",
+    "recorded": "Recorded",
+    "notes": "Notes",
+    "trend": {
+      "increasing": "Increasing",
+      "decreasing": "Decreasing",
+      "stable": "Stable"
+    }
+  }
+}

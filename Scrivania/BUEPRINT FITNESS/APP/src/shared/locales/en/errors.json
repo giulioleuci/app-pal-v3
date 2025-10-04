@@ -1,0 +1,195 @@
+{
+  "validation": {
+    "common": {
+      "required": "This field is required.",
+      "uuid": {
+        "required": "A unique ID is required.",
+        "invalid": "Invalid ID format."
+      },
+      "minMax": {
+        "min": {
+          "required": "A minimum value is required."
+        },
+        "max": {
+          "gteMin": "Max must be greater than or equal to min."
+        }
+      },
+      "duplicateIds": "This list cannot contain duplicate items."
+    },
+    "profile": {
+      "name": {
+        "required": "Profile name is required."
+      }
+    },
+    "userSettings": {
+      "primaryColor": {
+        "invalid": "Invalid color format. Must be a hex code (e.g., #RRGGBB)."
+      },
+      "secondaryColor": {
+        "invalid": "Invalid color format. Must be a hex code (e.g., #RRGGBB)."
+      }
+    },
+    "userDetails": {
+      "dateOfBirth": {
+        "future": "Date of birth cannot be in the future."
+      }
+    },
+    "weightRecord": {
+      "date": {
+        "required": "Date is required."
+      },
+      "weight": {
+        "required": "Weight is required.",
+        "positive": "Weight must be a positive number."
+      }
+    },
+    "heightRecord": {
+      "date": {
+        "required": "Date is required."
+      },
+      "height": {
+        "required": "Height is required.",
+        "positive": "Height must be a positive number."
+      }
+    },
+    "exercise": {
+      "name": {
+        "required": "Exercise name is required."
+      },
+      "substitutions": {
+        "self": "An exercise cannot list itself as a substitute."
+      },
+      "equipment": {
+        "otherOnly": "If 'other' is the only equipment, please provide a more specific one."
+      }
+    },
+    "exerciseTemplate": {
+      "name": {
+        "required": "Exercise template name is required."
+      }
+    },
+    "trainingPlan": {
+      "name": {
+        "required": "Plan name is required."
+      },
+      "cycleOrder": {
+        "required": "A plan assigned to a cycle must have a non-negative order."
+      }
+    },
+    "trainingCycle": {
+      "name": {
+        "required": "Training cycle name is required."
+      },
+      "endDate": {
+        "beforeStart": "End date cannot be earlier than start date."
+      }
+    },
+    "workoutSession": {
+      "name": {
+        "required": "Session name is required."
+      }
+    },
+    "workoutLog": {
+      "trainingPlanName": {
+        "required": "Training plan name is required."
+      },
+      "sessionName": {
+        "required": "Session name is required."
+      },
+      "endTime": {
+        "beforeStart": "End time cannot be earlier than start time."
+      },
+      "duration": {
+        "mismatch": "Duration does not match start and end times."
+      }
+    },
+    "exerciseSubstitution": {
+      "priority": {
+        "min": "Substitution priority must be at least 1.",
+        "max": "Substitution priority cannot exceed 5."
+      }
+    },
+    "maxLog": {
+      "weight": {
+        "positive": "Weight must be a positive number."
+      },
+      "reps": {
+        "positive": "Reps must be a positive number."
+      },
+      "date": {
+        "future": "Date cannot be in the future."
+      }
+    },
+    "customTheme": {
+      "name": {
+        "required": "Theme name is required."
+      },
+      "primaryColor": {
+        "invalid": "Invalid color format. Must be a hex code (e.g., #RRGGBB)."
+      },
+      "secondaryColor": {
+        "invalid": "Invalid color format. Must be a hex code (e.g., #RRGGBB)."
+      }
+    },
+    "pyramidalSet": {
+      "ascending": {
+        "invalid": "In ascending mode, start counts must be less than end counts."
+      },
+      "descending": {
+        "invalid": "In descending mode, start counts must be greater than end counts."
+      }
+    },
+    "singleExerciseGroup": {
+      "maxLength": "A single exercise group can contain at most one exercise."
+    },
+    "supersetExerciseGroup": {
+      "exactLength": "A superset must contain exactly two exercises."
+    },
+    "performedExerciseLog": {
+      "skipped": {
+        "nonZero": "Skipped exercises cannot have non-zero volume, counts, or sets."
+      }
+    },
+    "performedSet": {
+      "weightAndPercentage": "Cannot specify both weight and percentage."
+    }
+  },
+  "domain": {
+    "weight": {
+      "negative": "Weight cannot be negative."
+    },
+    "counter": {
+      "invalid": "Counter value must be a non-negative integer."
+    },
+    "rpe": {
+      "invalidRange": "RPE must be between 1 and 10."
+    },
+    "notes": {
+      "maxLength": "Notes cannot exceed 500 characters."
+    },
+    "duration": {
+      "negative": "Duration cannot be negative."
+    },
+    "percentage": {
+      "invalidRange": "Percentage must be between 0 and 100."
+    },
+    "age": {
+      "invalid": "Age must be a non-negative integer."
+    },
+    "substitution": {
+      "priority": "Substitution priority must be between 1 and 5."
+    },
+    "superset": {
+      "invalidExerciseCount": "A superset must contain exactly two exercises."
+    },
+    "circuit": {
+      "invalidExerciseCount": "A circuit must contain at least two exercises."
+    },
+    "amrapEmom": {
+      "durationRequired": "{{type}} groups require a duration to be set."
+    },
+    "trainingPlan": {
+      "noSessions": "A training plan must have at least one session."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "workout": {
+    "setCompleted": "Serie completata!",
+    "noActiveWorkout": "Nessun Allenamento Attivo",
+    "noActiveWorkoutDescription": "Inizia un nuovo allenamento per monitorare i tuoi progressi",
+    "startNewWorkout": "Inizia Nuovo Allenamento",
+    "elapsedTime": "Tempo Trascorso",
+    "progress": "Progressi",
+    "sets": "serie",
+    "complete": "completato",
+    "saveWorkout": "Salva Allenamento",
+    "completeWorkout": "Completa Allenamento",
+    "inProgress": "In Corso",
+    "totalVolume": "Volume Totale",
+    "rating": "Valutazione",
+    "exercises": "Esercizi",
+    "noExercises": "Nessun Esercizio",
+    "start": {
+      "button": "Inizia Allenamento"
+    },
+    "actions": {
+      "started": "Allenamento iniziato!",
+      "viewExercises": "Visualizza Esercizi",
+      "editWorkout": "Modifica Allenamento"
+    }
+  },
+  "history": {
+    "empty": {
+      "title": "Nessuno Storico Allenamenti",
+      "description": "Completa il tuo primo allenamento per vederlo qui",
+      "action": "Inizia Allenamento"
+    },
+    "search": {
+      "placeholder": "Cerca allenamenti..."
+    }
+  }
+}

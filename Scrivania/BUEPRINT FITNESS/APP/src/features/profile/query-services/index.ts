@@ -1,0 +1,1 @@
+export { ProfileQueryService } from './ProfileQueryService';

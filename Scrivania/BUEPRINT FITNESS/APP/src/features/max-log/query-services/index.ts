@@ -1,0 +1,1 @@
+export { MaxLogQueryService } from './MaxLogQueryService';

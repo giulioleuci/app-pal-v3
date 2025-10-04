@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "packageManager": "npm",
+  "reporters": ["html", "clear-text", "progress"],
+  "testRunner": "vitest",
+  "checkers": [],
+  "coverageAnalysis": "perTest",
+  "mutate": [
+    "src/features/**/hooks/**/*.ts",
+    "src/features/**/hooks/**/*.tsx",
+    "src/features/**/query-services/**/*.ts",
+    "src/features/**/machines/**/*.ts",
+    "src/features/**/store/**/*.ts",
+    "src/app/hooks/**/*.ts",
+    "!src/**/*.test.ts?(x)",
+    "!src/**/*.spec.ts?(x)",
+    "!src/**/*.stories.tsx",
+    "!src/**/__tests__/**/*"
+  ],
+  "htmlReporter": {
+    "baseDir": "reports/mutation/ui-logic"
+  }
+}

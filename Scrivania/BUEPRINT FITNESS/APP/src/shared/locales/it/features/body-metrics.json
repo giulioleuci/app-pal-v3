@@ -1,0 +1,35 @@
+{
+  "bodyMetrics": {
+    "tabs": {
+      "label": "Schede Metriche Corporee",
+      "weight": "Peso",
+      "height": "Altezza"
+    },
+    "actions": {
+      "deleteError": "Impossibile eliminare il record"
+    },
+    "weight": {
+      "empty": {
+        "title": "Nessun Record Peso",
+        "description": "Inizia a monitorare i tuoi progressi di peso",
+        "action": "Aggiungi Peso"
+      }
+    },
+    "height": {
+      "empty": {
+        "title": "Nessun Record Altezza",
+        "description": "Monitora le tue misurazioni di altezza",
+        "action": "Aggiungi Altezza"
+      }
+    },
+    "weightRecord": "Record Peso",
+    "heightRecord": "Record Altezza",
+    "recorded": "Registrato",
+    "notes": "Note",
+    "trend": {
+      "increasing": "In Aumento",
+      "decreasing": "In Diminuzione",
+      "stable": "Stabile"
+    }
+  }
+}
